@@ -13,7 +13,7 @@ function Topbar() {
           <a href="#works" className="logo">genius.</a>
           <div className="itemContainer">
             {/* <PersonIcon /> */}
-            <FontAwesomeIcon icon={faUser} />
+            <FontAwesomeIcon icon={faUser} className="icon" />
 
             {/* <Person /> */}
             <span>
@@ -23,7 +23,7 @@ function Topbar() {
           </div>
           <div className="itemContainer">
             {/* <Mail /> */}
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />
             <span>
               web@gmail.com
             </span>
@@ -32,7 +32,12 @@ function Topbar() {
           {/* <h1>Hello</h1> */}
         </div>
         <div className="right">
-          {/* This is right */}
+          <div className="hamburger">
+            <span className="line1">--</span>
+            <span className="line2">--</span>
+            <span className="line3">--</span>
+          </div>
+
         </div>
 
       </div>
