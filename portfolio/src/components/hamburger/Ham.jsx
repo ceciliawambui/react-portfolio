@@ -2,14 +2,13 @@ import React from 'react'
 import "./ham.scss"
 
 
-function Ham() {
+function Ham(isOpen) {
     return (
         <div className='ham'>
-            {/* <h1>Ham</h1> */}
             <div className="hamburger">
-                <div className="burger"></div>
-                <div className="burger"></div>
-                <div className="burger"></div>
+                <div className="burger burger1"></div>
+                <div className="burger burger2"></div>
+                <div className="burger burger3"></div>
             </div>
         </div>
     )

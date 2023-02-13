@@ -5,10 +5,12 @@ import "./topbar.scss"
 import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Ham from "../hamburger/Ham";
+import Menu from "../menu/Menu";
+
 
 function Topbar() {
   return (
-    <div className='topbar' id="topbar">
+    <div className='topbar active' id="topbar">
       <div className="wrapper">
         <div className="left">
           <a href="#works" className="logo">genius.</a>
@@ -33,14 +35,19 @@ function Topbar() {
           {/* <h1>Hello</h1> */}
         </div>
         <div className="right">
-          <Ham/>
-          {/* <div className="hamburger">
-            <span className="line line1"></span>
-            <span className="line line2"></span>
-            <span className="line line"></span>
-          </div> */}
+          <div>
+          <Ham />
+          </div>
+         
+          <div>
+          <Menu/>
 
+          </div>
+          
+          
         </div>
+        
+
 
       </div>
 

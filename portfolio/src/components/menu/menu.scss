@@ -1,0 +1,11 @@
+@import "../../global.scss";
+
+.menu{
+    width: 250px;
+    height: 50vh;
+    background-color: $mainColor;
+    position: fixed;
+    margin-top: 20px;
+    right: 0px;
+    z-index: 2;
+}

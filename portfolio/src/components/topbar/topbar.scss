@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.topbar{
+.topbar {
     width: 100%;
     height: 70px;
     background-color: white;
@@ -8,41 +8,54 @@
     // color: black;
     position: fixed;
     top: 0;
-    z-index: 2;
-    
-    .wrapper{
+    z-index: 3;
+    transition: all 2s ease;
+
+    .wrapper {
         padding: 10px 30px;
         display: flex;
         align-items: center;
-        justify-content:space-between ;
+        justify-content: space-between;
 
-        .left{
+        .left {
             display: flex;
             align-items: center;
 
-            .logo{
+            .logo {
                 font-size: 40px;
                 font-weight: 700;
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
             }
-            .itemContainer{
+
+            .itemContainer {
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
-                
-                .icon{
+
+                .icon {
                     font-size: 18px;
                     margin-right: 5px;
                 }
-                .span{
+
+                .span {
                     font-size: 15px;
                     font-weight: 500;
                 }
             }
         }
-        .right{
+
+        .right {
+            .navigation ul {
+                // display: ${hamburgerOpen ?'inline':'none'};
+                background-color: blue;
+                height: 100vh;
+                width: 50vw;
+                margin-top: 50px;
+                position: absolute;
+            }
+
             // .hamburger{
             //     width: 32px;
             //     height: 25px;
@@ -63,7 +76,7 @@
             //         }
             //     }
             // }
-            .hamburger{
+            .hamburger {
                 width: 2 rem;
                 height: 2 rem;
                 display: flex;
@@ -72,7 +85,8 @@
                 z-index: 10;
 
             }
-            .line{
+
+            .line {
                 width: 2 rem;
                 height: 0.25 rem;
                 border-radius: 10px;
@@ -81,5 +95,11 @@
                 transition: all 0.3s linear;
             }
         }
+    }
+
+    &.active {
+        background-color: $mainColor;
+        color: white;
+
     }
 }

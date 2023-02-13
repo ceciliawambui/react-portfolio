@@ -1,5 +1,5 @@
-.ham{
-    .hamburger{
+.ham {
+    .hamburger {
         width: 32px;
         height: 25px;
         display: flex;
@@ -8,18 +8,32 @@
         z-index: 10;
         flex-direction: column;
         cursor: pointer;
+    }
 
-    }
-    h1{
-        color: pink;
-    }
-    .burger{
+    .burger {
         width: 100%;
         height: 3px;
         // border-radius: 10px;
-        background-color: black;
-        // transform-origin: 1px;
-        // transition: all 0.3s linear;
-    }
+        transform-origin: left;
+        transition: all 2s ease;
+        background-color: white;
 
+        
+
+        // &:first-child {
+        //     // transform: rotate(45deg);
+        //     background-color: white;
+        // }
+        // &:nth-child(2){
+        //     opacity: 0;
+        // }
+        // &:last-child{
+        //     transform: rotate(-45deg);
+        //     background-color: white;
+        // }
+
+
+
+
+    }
 }
