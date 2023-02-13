@@ -4,6 +4,7 @@ import "./topbar.scss"
 // import PersonIcon from '@mui/icons-material/Person';
 import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Ham from "../hamburger/Ham";
 
 function Topbar() {
   return (
@@ -32,11 +33,12 @@ function Topbar() {
           {/* <h1>Hello</h1> */}
         </div>
         <div className="right">
-          <div className="hamburger">
-            <span className="line1">--</span>
-            <span className="line2">--</span>
-            <span className="line3">--</span>
-          </div>
+          <Ham/>
+          {/* <div className="hamburger">
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line"></span>
+          </div> */}
 
         </div>
 
