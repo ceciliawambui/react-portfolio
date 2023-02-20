@@ -1,5 +1,5 @@
 // import React from 'react'
-// import "./ham.scss"
+import "./ham.scss"
 
 
 // function Ham(isOpen) {
@@ -21,15 +21,15 @@ import {
   MDBCollapse,
   MDBNavbar,
   MDBNavbarToggler,
-  MDBIcon,
-  MDBBtn,
+  // MDBIcon,
+  // MDBBtn,
 } from 'mdb-react-ui-kit';
 import "./ham.css"
 
 export default function Ham() {
-  const [showAnimated, setShowAnimated] = useState(false);
+  // const [showAnimated, setShowAnimated] = useState(false);
   const [showAnimated2, setShowAnimated2] = useState(false);
-  const [showAnimated3, setShowAnimated3] = useState(false);
+  // const [showAnimated3, setShowAnimated3] = useState(false);
 
   return (
     <>
@@ -92,7 +92,18 @@ export default function Ham() {
         </MDBNavbar>
 
         <MDBCollapse show={showAnimated2}>
-          <div className='bg-light shadow-3'>
+        <div className='menu'>
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </div>
+          {/* <div className='bg-light shadow-3'>
             <MDBBtn block className='border-bottom m-0' color='link'>
               Home
             </MDBBtn>
@@ -114,7 +125,7 @@ export default function Ham() {
               Contact
             </MDBBtn>
           
-          </div>
+          </div> */}
         </MDBCollapse>
       </section>
 

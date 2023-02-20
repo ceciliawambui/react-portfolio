@@ -1,3 +1,29 @@
 .intro{
-    background-color: lightpink;
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        border-radius: 50%;
+        overflow: hidden;
+        
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            background-color: crimson;
+            display: flex;
+            align-items: flex-end;
+            float: right;
+            justify-content: center;
+
+            .img{
+                height: 100%;
+            }
+        }
+
+    }
+    .right{
+        flex: 0.5;
+        // background-color: red;
+    }
 }

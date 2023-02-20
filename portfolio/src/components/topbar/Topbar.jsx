@@ -5,7 +5,7 @@ import "./topbar.scss"
 import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Ham from "../hamburger/Ham";
-import Menu from "../menu/Menu";
+// import Menu from "../menu/Menu";
 
 
 function Topbar() {

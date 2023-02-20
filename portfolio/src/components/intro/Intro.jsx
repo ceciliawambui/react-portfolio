@@ -4,7 +4,22 @@ import "./intro.scss"
 function intro() {
     return (
         <div className='intro' id="intro">
-            intro
+            <div className="left">
+                <div className="imgContainer">
+                    <img src="assets/woman2.png" alt="" />
+                </div>
+            </div>
+            <div className="right">
+                <div className="wrapper">
+                    <h2>Hi There, I'm</h2>
+                    <h1>Skylar Williams</h1>
+                    <h3>Freelance <span>Software Developer</span></h3>
+                </div>
+                <a href="#portfolio">
+                    <img src="assets/down2.png" alt="" />
+                </a>
+            </div>
+            
         </div>
     )
 }
