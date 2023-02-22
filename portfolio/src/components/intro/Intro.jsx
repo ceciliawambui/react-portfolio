@@ -16,7 +16,7 @@ function intro() {
                     <h3>Freelance <span>Software Developer</span></h3>
                 </div>
                 <a href="#portfolio">
-                    <img src="assets/down2.png" alt="" />
+                    <img src="assets/down4.png" alt="" />
                 </a>
             </div>
             
