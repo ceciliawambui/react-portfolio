@@ -10,6 +10,7 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.8",
     "@mui/styled-engine-sc": "^5.11.0",
+    "ityped": "^1.0.3",
     "mdb-ui-kit": "^6.1.0",
     "node-sass": "^8.0.0",
     "styled-components": "^5.3.6"

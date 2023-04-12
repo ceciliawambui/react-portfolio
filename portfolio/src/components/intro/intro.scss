@@ -8,8 +8,8 @@
         overflow: hidden;
         
         .imgContainer{
-            width: 700px;
-            height: 700px;
+            width: 800px;
+            height: 800px;
             background-color: crimson;
             display: flex;
             align-items: flex-end;
@@ -48,6 +48,35 @@
                 span{
                     font-size: inherit;
                     color: crimson;
+                }
+                .ityped-cursor {
+                    font-size: 2.2rem;
+                    opacity: 1;
+                    -webkit-animation: blink 0.3s infinite;
+                    -moz-animation: blink 0.3s infinite;
+                    animation: blink 0.3s infinite;
+                    animation-direction: alternate;
+                }
+                 
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+                 
+                @-webkit-keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+                 
+                @-moz-keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
                 }
             }
         }
